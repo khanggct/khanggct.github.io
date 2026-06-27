@@ -1,4 +1,4 @@
-import mdx from "@astrojs/mdx";
+// import mdx from "@astrojs/mdx";
 import node from "@astrojs/node";
 import sitemap from "@astrojs/sitemap";
 import { defineConfig } from "astro/config";
@@ -21,7 +21,7 @@ const {
 
 // https://astro.build/config
 const config = defineConfig({
-	site: "https://spectre.lou.gg",
+	site: "https://khanggct.github.io",
 	output: "static",
 	integrations: [
 		expressiveCode({
@@ -57,9 +57,9 @@ const config = defineConfig({
 			// },
 		}),
 	],
-	adapter: node({
-		mode: "standalone",
-	}),
+	// adapter: node({
+	// 	mode: "standalone",
+	// }),
 });
 
 export default config;
