@@ -30,7 +30,7 @@ const config = defineConfig({
 		mdx(),
 		sitemap(),
 		spectre({
-			name: "Spectre",
+			name: "Phung Anh Khang",
 			openGraph: {
 				home: {
 					title: "Spectre",
