@@ -33,15 +33,15 @@ const config = defineConfig({
 			name: "Phung Anh Khang",
 			openGraph: {
 				home: {
-					title: "Spectre",
+					title: "Phung Anh Khang | Portfolio",
 					description: "A minimalistic theme for Astro.",
 				},
 				blog: {
-					title: "Blog",
+					title: "Blog | Phung Anh Khang",
 					description: "News and guides for Spectre.",
 				},
 				projects: {
-					title: "Projects",
+					title: "Projects | Phung Anh Khang",
 				},
 			},
 			// giscus: {
